@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+
+.hero-banner {
+  width: 100%;
+  position: relative;
+  margin-top: 65px;
+}
+
+.hero-banner-image {
+  position: relative;
+}
+
+.hero-banner-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  max-height: 400px;
+}
