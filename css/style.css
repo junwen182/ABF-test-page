@@ -1,3 +1,17 @@
+@font-face {
+  font-family: gothamBook;
+  src: url("fonts/gotham-book.ttf");
+}
+@font-face {
+  font-family: gothamMedium;
+  src: url("fonts/gotham-medium.ttf");
+}
+@font-face {
+  font-family: gothamBold;
+  src: url("fonts/gotham-bold.ttf");
+}
+
+
 body {
   margin: 0;
 }
@@ -29,5 +43,39 @@ body {
   width: 100%;
   margin: auto;
   text-align: center;
-  max-height: 400px;
+  max-height: 450px;
 }
+
+.banner-headline {
+  font-family: gothamBold;
+  text-transform: uppercase;
+  color: #d10057;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.banner-subheadline {
+  font-family: gothamBook;
+  color: #777777;
+  font-size: 20.5px;
+  margin-bottom: 38px;
+}
+
+button {
+  border: 0;
+  background: #d10057;
+  border-radius: 3px;
+  padding: 25px 80px 22px 80px;
+  cursor: pointer;
+}
+button span {
+  font-family: gothamBook;
+  color: white;
+  font-size: 16px;
+}
+
+/* 
+
+h1 on mobile: font-size: 18px;
+h2 on mobile: font-size: 12px; line-height: 18px; 
+
+*/
