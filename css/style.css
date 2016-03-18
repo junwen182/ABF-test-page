@@ -50,13 +50,13 @@ body {
   font-family: gothamBold;
   text-transform: uppercase;
   color: #d10057;
-  font-size: 48px;
+  font-size: 42px;
   margin-bottom: 10px;
 }
 .banner-subheadline {
   font-family: gothamBook;
   color: #777777;
-  font-size: 20.5px;
+  font-size: 16px;
   margin-bottom: 38px;
 }
 
@@ -75,11 +75,11 @@ button span {
 
 @media(max-width: 991px) {
   .banner-headline {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 50px;
   }
   .banner-subheadline {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -88,16 +88,25 @@ button span {
     display: none;
   }
   .banner-headline {
+    font-size: 26px;
+    margin-top: 40px;
+  }
+  .banner-subheadline {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media(max-width: 600px) {
+  .banner-headline {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 6%;
   }
   .banner-subheadline {
     font-size: 12px;
     line-height: 16px;
   }
-
 }
-
 /* 
 
 h1 on mobile: font-size: 18px;
