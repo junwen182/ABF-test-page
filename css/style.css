@@ -60,19 +60,36 @@ body {
   margin-bottom: 25px;
 }
 
-button {
+.collection-btn {
   border: 0;
   background: #d10057;
   border-radius: 3px;
   padding: 25px 80px 22px 80px;
   cursor: pointer;
 }
-button span {
+.collection-btn span {
   font-family: gothamBook;
   color: white;
   font-size: 16px;
 }
 
+@media(min-width: 1600px) {
+  .banner-headline {
+    font-size: 70px;
+  }
+  .banner-subheadline {
+    font-size: 26px;
+  }
+  .hero-center {
+    max-height: 600px;
+  } 
+  .collection-btn {
+    padding: 28px 120px 26px 120px;
+  }
+  .collection-btn span {
+    font-size: 24px;
+  }
+}
 @media(max-width: 991px) {
   .banner-headline {
     font-size: 35px;
