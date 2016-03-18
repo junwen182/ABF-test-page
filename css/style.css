@@ -27,7 +27,7 @@ body {
   position: relative;
 }
 
-.hero-banner-image img {
+.abf-big-burst {
   display: block;
   width: 100%;
   height: auto;
@@ -83,7 +83,7 @@ button span {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media(max-width: 800px) {
   .collection-btn {
     display: none;
   }
@@ -110,9 +110,3 @@ button span {
     line-height: 16px;
   }
 }
-/* 
-
-h1 on mobile: font-size: 18px;
-h2 on mobile: font-size: 12px; line-height: 18px; 
-
-*/
